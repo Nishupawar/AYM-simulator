@@ -1,0 +1,30 @@
+Explanation:
+ATM Class:
+
+balance: Holds the account balance.
+pin: Stores the PIN for accessing the account.
+transactionHistory: Keeps track of all transactions made.
+ATM Methods:
+
+checkBalance(): Returns the current balance.
+withdraw(double amount): Deducts specified amount from balance if sufficient funds are available.
+deposit(double amount): Adds specified amount to balance.
+changePin(String newPin): Changes the PIN to a new one.
+showTransactionHistory(): Displays all past transactions.
+Main Class (ATMProgram):
+
+Initializes an ATM instance with an initial balance and PIN.
+Displays a menu of options (check balance, withdraw, deposit, change PIN, transaction history, exit).
+Uses a switch statement to execute the corresponding ATM methods based on user input.
+Usage:
+Compile the Java code (javac ATMProgram.java).
+Run the compiled program (java ATMProgram).
+Follow the prompts to simulate ATM operations.
+This example provides a basic structure for an ATM simulation in Java. Depending on your requirements, you may extend it with additional features such as account validation, error handling, or more sophisticated transaction management.
+
+
+
+
+
+
+
